@@ -1,7 +1,7 @@
 import pygame
 
 
-def __main__:
+def main():
     print("Starting asteroids!")
 
 
