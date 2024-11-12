@@ -22,9 +22,10 @@ def main():
             if event.type == pygame.QUIT:
                 return
             
+        player.update(dt)
+            
         screen.fill(color)
         player.draw(screen)
-        player.update(dt)
         pygame.display.flip()
 
 
