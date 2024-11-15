@@ -44,7 +44,6 @@ def main():
             
         for obj in updateable:
             obj.update(dt)
-        
 
         for asteroid in asteroids:
             if asteroid.collides_with(player):
